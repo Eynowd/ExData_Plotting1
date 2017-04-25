@@ -4,7 +4,11 @@
 #
 # File Summary: Using the Individual household electric power consumption Data Set from the  UC Irvine Machine 
 #               Learning Repository, this script will read in the data from the first two days in February 2007 and
-#               then plot the three energy sub reading variables over time to a single PNG file.
+#               then creates four separate plots on the same graphics device:
+#                   1) Global Active Power over time (same as plot2)
+#                   2) Voltage over time
+#                   3) Sub meter readings over time (same as plot 3)
+#                   4) Global reactive power over time
 #
 #               This script assumes that the data file is already present in the current working directory.
 #-----------------------------------------------------------------------------------------------------------------------
